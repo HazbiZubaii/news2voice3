@@ -2,6 +2,8 @@
 
 ![Alt Text](https://github.com/HazbiZubaii/news2voice3/blob/main/Screenshot%202025-03-23%20111412.png)
 
+Demo video of working: https://drive.google.com/file/d/1o-T5Q9cbRYm_ZYX6IcQfl130mT8u0hAC/view?usp=sharing
+
 ## Project Overview
 News2Voice is a web-based application that performs news extraction, sentiment analysis, comparative sentiment analysis, and generates a Text-to-Speech (TTS) output in Hindi for a given company's news articles. The application enables users to input a company name, fetch news articles, analyze sentiment, summarize the content, and play a Hindi speech output for the summarization. This project leverages modern NLP techniques, sentiment analysis, and machine learning to offer a structured and accessible news experience.
 
