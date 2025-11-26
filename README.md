@@ -91,20 +91,3 @@ POST /api/sentiment_analysis: Analyzes the sentiment of the extracted news artic
 POST /api/comparative_analysis: Performs comparative sentiment analysis between the fetched news articles.
 
 POST /api/tts: Converts the summarized content into speech using gTTS and returns a playable audio file.
-
-## Assumptions & Limitations
-The scraper only fetches news from non-JS web pages that can be parsed using BeautifulSoup.
-
-The sentiment analysis is performed on the content and title only; multimedia content such as images and videos are not considered.
-
-Hindi translation is limited to the title of the article.
-
-The number of fetched articles might vary depending on the availability of news.
-
-## Deployment
-The application is deployed on Hugging Face Spaces for testing. You can access it via the following link: Hugging Face Deployment Link
-## Conclusion
-This project provides an interactive tool to fetch, summarize, analyze, and voice company news articles. By using NLP techniques, sentiment analysis, and TTS in Hindi, the app makes news consumption more accessible and engaging.
-
-## License
-This project is open-source and available under the MIT License. 
